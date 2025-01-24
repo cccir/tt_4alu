@@ -2,6 +2,9 @@
 
 # Tiny Tapeout Wokwi Project Template
 
+This is a digital design for a 4-bit ALU inspired by classical Z80 and 6502 processors.
+
+I wanted design to be visually easy to understand and closer to perhaps how it would've been done back in the days, so I chose to design logic circuit in Wokwi instead of HDL. Run simulation directly in your browser https://wokwi.com/projects/420939535977868289
 - [Read the documentation for project](docs/info.md)
 
 ## What is Tiny Tapeout?
@@ -12,7 +15,7 @@ To learn more and get started, visit https://tinytapeout.com.
 
 ## Wokwi Projects
 
-Edit the [info.yaml](info.yaml) and change the `wokwi_id` to the ID of your Wokwi project. You can find the ID in the URL of your project, it's the big number after `wokwi.com/projects/`.Run simulation directly in your browser https://wokwi.com/projects/420939535977868289
+Edit the [info.yaml](info.yaml) and change the `wokwi_id` to the ID of your Wokwi project. You can find the ID in the URL of your project, it's the big number after `wokwi.com/projects/`.
 
 The GitHub action will automatically fetch the digital netlist from Wokwi and build the ASIC files.
 
