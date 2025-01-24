@@ -5,12 +5,12 @@ project:
   author:       "CIT"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Digital design for a 4-bit ALU supporting 8 different operations and built-in 4-bit accumulator register"
-  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  language:     "Wowki" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
-  top_module:  "tt_um_example"  # Make it unique by including your GitHub username
-  source_files:
-    - "project.v"  # List each source file separately
+  #top_module:  "tt_um_example"  # Make it unique by including your GitHub username
+  #source_files:
+   # - "project.v"  # List each source file separately
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
