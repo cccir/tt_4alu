@@ -4,36 +4,35 @@ project:
   title:        "4-bit ALU"      # Project title
   author:       "CIT"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Digital design for a 4-bit ALU supporting 8 different operations and built-in 4-bit accumulator register
-"      
-  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  description:  "Digital design for a 4-bit ALU supporting 8 different operations and built-in 4-bit accumulator register"
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
-
-  # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
-
+  top_module:  "tt_um_example"  # Make it unique by including your GitHub username
+  source_files:
+    - "project.v"  # List each source file separately
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-    - clock
-    - opcode 0th bit
-    - opcode 1st bit
-    - opcode 2nd bit
-    - operand 0th bit
-    - operand 1st bit
-    - operand 2nd bit
-    - operand 3rd bit
+  ui[0]: "clock"
+  ui[1]: "opcode_0"
+  ui[2]: "opcode_1"
+  ui[3]: "opcode_2"
+  ui[4]: "operand_0"
+  ui[5]: "operand_1"
+  ui[6]: "operand_2"
+  ui[7]: "operand_3"
 
   # Outputs
-    - accumulator value 0th bit
-    - accumulator value 1st bit
-    - accumulator value 2nd bit
-    - accumulator value 3rd bit
-    - unused (TODO: negative flag)
-    - unused (TODO: overflow flag)
-    - unused (TODO: zero flag)
-    - carry flag
+  uo[0]: "accumulator_0"
+  uo[1]: "accumulator_1"
+  uo[2]: "accumulator_2"
+  uo[3]: "accumulator_3"
+  uo[4]: "unused_negative"
+  uo[5]: "unused_overflow"
+  uo[6]: "unused_zero"
+  uo[7]: "carry"
 
   # Bidirectional pins
   uio[0]: ""
