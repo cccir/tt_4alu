@@ -12,7 +12,7 @@ To learn more and get started, visit https://tinytapeout.com.
 
 ## Wokwi Projects
 
-Edit the [info.yaml](info.yaml) and change the `wokwi_id` to the ID of your Wokwi project. You can find the ID in the URL of your project, it's the big number after `wokwi.com/projects/`.
+Edit the [info.yaml](info.yaml) and change the `wokwi_id` to the ID of your Wokwi project. You can find the ID in the URL of your project, it's the big number after `wokwi.com/projects/`.Run simulation directly in your browser https://wokwi.com/projects/420939535977868289
 
 The GitHub action will automatically fetch the digital netlist from Wokwi and build the ASIC files.
 
