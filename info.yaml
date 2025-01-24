@@ -15,7 +15,7 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "clock"
+  ui[0]: "clk"
   ui[1]: "opcode_0"
   ui[2]: "opcode_1"
   ui[3]: "opcode_2"
@@ -32,7 +32,7 @@ pinout:
   uo[4]: "unused_negative"
   uo[5]: "unused_overflow"
   uo[6]: "unused_zero"
-  uo[7]: "carry"
+  uo[7]: "flag"
 
   # Bidirectional pins
   uio[0]: ""
