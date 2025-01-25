@@ -10,8 +10,6 @@ You can also include images in this folder and reference them in the markdown. E
 ## How it works
 
 Explain how your project works
-
-# Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
       Each clock cycles ALU performs one of the 8 possible operations and stores result in the 4-bit accumulator register.
 
@@ -40,6 +38,8 @@ Explain how your project works
 
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
+
+Explain how to use your project
   how_to_test:  |
     The following diagram shows a simple test setup that can be used to test ALU
     ```
@@ -64,6 +64,10 @@ Explain how your project works
     To reset ALU set all input pins to 0 which corresponds to ```lda 0``` operation
     loading Accumulator register with 0.
 
+## External hardware
+
+List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+
 # A description of what the inputs do
   inputs:               
     - clock
@@ -85,10 +89,3 @@ Explain how your project works
     - unused (TODO: zero flag)
     - carry flag
 
-## How to test
-
-Explain how to use your project
-
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
